@@ -5,6 +5,7 @@ import './i18n';
 import { useTranslation } from 'react-i18next';
 import TranslateClassBasedComps from "./components/TranslateClassBasedComps";
 import TextWithVariables from './components/TextWithVariables';
+import LanguageToggle from './components/LanguageToggle'
 
 function App() {
   const { t } = useTranslation();
@@ -25,6 +26,7 @@ function App() {
         </a>
       <TranslateClassBasedComps />
       <TextWithVariables />
+      <LanguageToggle />
     </div>
   );
 }
