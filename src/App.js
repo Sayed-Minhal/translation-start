@@ -3,7 +3,8 @@ import './App.css';
 import './i18n';
 
 import { useTranslation } from 'react-i18next';
-import TranslateClassBasedComps from "./components/TranslateClassBasedComps"
+import TranslateClassBasedComps from "./components/TranslateClassBasedComps";
+import TextWithVariables from './components/TextWithVariables';
 
 function App() {
   const { t } = useTranslation();
@@ -23,6 +24,7 @@ function App() {
           { t('myKey') }
         </a>
       <TranslateClassBasedComps />
+      <TextWithVariables />
     </div>
   );
 }

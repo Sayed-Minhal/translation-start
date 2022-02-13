@@ -1,4 +1,5 @@
 {
     "myKey": "This is initialization",
-    "myParagraph":"This is a paragraph - EN-US"
+    "myParagraph":"This is a paragraph - EN-US",
+    "myHobby":"I like to {{hobby}} all the day"
 }
