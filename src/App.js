@@ -3,13 +3,14 @@ import './App.css';
 import './i18n';
 
 import { useTranslation } from 'react-i18next';
+import TranslateClassBasedComps from "./components/TranslateClassBasedComps"
 
 function App() {
   const { t } = useTranslation();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -21,7 +22,7 @@ function App() {
         >
           { t('myKey') }
         </a>
-      </header>
+      <TranslateClassBasedComps />
     </div>
   );
 }
